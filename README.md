@@ -1,16 +1,16 @@
-# gitapp
+# Flutter Git-App
 
-A new Flutter project.
+* A flutter App for Firebase Auth with GitHub.
+* Get Your Git Profile and Repositories.
 
-## Getting Started
+## How To Setup
 
-This project is a starting point for a Flutter application.
+* Clone The App.
+* Setup Your Firebase App then copy the google-service.json in the "project/android/app".
+* Enable Github Auth in Firebase.
+* Create An App in github account setting.
+* Add Your Git "clientId", "clientSecret" from GitHub and then "redirectUrl" from firebase in the signInWithGitHub() method in login.dart.
+* Now enjoy the app.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![gitApp](https://user-images.githubusercontent.com/22419021/106349573-ed6fc700-62f4-11eb-9f82-b47a0f7158c9.png)
